@@ -56,7 +56,7 @@ public class PiGrupo10Application {
 	public CorsConfigurationSource corsConfigurationSource() {
 		CorsConfiguration config = new CorsConfiguration();
 		config.setAllowedOriginPatterns(Arrays.asList(""));
-		config.setAllowedOrigins(Arrays.asList("http://localhost:3000/", "*"));
+		//config.setAllowedOrigins(Arrays.asList("http://localhost:3000/", "*"));
 		config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
 		config.setAllowCredentials(true);
 		config.setAllowedHeaders(Arrays.asList("Content-Type", "Authorization"));
